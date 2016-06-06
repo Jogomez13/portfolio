@@ -8,7 +8,7 @@ body {
   background-color: #EEEEEE;
 }
 
-h2,h3 {
+h2 {
   text-align: center;
 }
 
@@ -67,6 +67,31 @@ header .mixed-menu li a:focus::after {
   text-decoration: none;
 }
 
+/*............LOGO NAV...............*/
+
+#logotwitter {
+  padding-top: 10px;
+  width : 30px;
+  height: 30px;
+}
+
+#logofacebook {
+  padding-top: 7px;
+  width : 30px;
+  height: 30px;
+}
+
+#logolinkedin {
+  padding-top: 7px;
+  width : 30px;
+  height: 30px;
+}
+
+#logogithub {
+  padding-top: 7px;
+  width : 70px;
+  height: 30px;
+}
 /*...................................ACCUEIL...........*/
 
 #accueil {
@@ -79,42 +104,75 @@ header .mixed-menu li a:focus::after {
 
 
 /*...................................PRESENTATION...........*/
+#presentation {
+  padding-bottom : 80px;
+  padding-top : 30px;
+}
 
-
+#profil {
+  float : left;
+  padding-left: 30px;
+  padding-right: 30px;
+}
 
 
 /*.........................PARCOURS.................*/
 
 
 /*.........................FORMATION.................*/
-
+#formation {
+  padding-bottom : 80px;
+  padding-top : 30px;
+}
 
 /*.........................EXPERIENCE.................*/
 
+#experience {
+  padding-bottom : 100px;
+  padding-top : 30px;
+}
 
 /*.........................COMPETENCE.................*/
 #competence {
   columns: 2;
+  padding-bottom : 100px;
+  padding-top : 30px;
 }
 
 
 /*.........................FRONT.................*/
-
+#front {
+  padding-bottom : 100px;
+  padding-top : 30px;
+}
 
 
 /*.........................BACK.................*/
+#back {
+  padding-bottom : 100px;
+  padding-top : 30px;
+}
 
+/*.........................LOISIR.................*/
 
+#loisir {
+  padding-bottom : 100px;
+  padding-top : 30px;
+}
 
 /*.........................REALISARION.................*/
 #ordi {
   display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom : 100px;
+    padding-top : 30px;
 }
 
 /*.........................CONTACT.................*/
 #contact {
   background-color: #393E46;
   color : #EEEEEE;
+  padding-bottom : 100px;
+  padding-top : 30px;
 }
