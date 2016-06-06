@@ -1,0 +1,94 @@
+* {
+  margin : 0;
+  padding : 0;
+}
+
+body {
+  font-size : 2em;
+}
+
+
+
+/*........................NAVIGATION................*/
+
+ul {
+  list-style: none;
+}
+
+header .mixed-menu {
+  float: right;
+  margin-top: 14px;
+  margin-right: 15px;
+}
+
+header .mixed-menu li {
+  float: left;
+  padding-right: 0.8em;
+}
+header .mixed-menu li a {
+  font-size: 0.875em;
+  text-decoration: none;
+  font-family: "freight-sans-pro", freightSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  display: inline-block;
+  position: relative;
+}
+
+a {
+  color : black;
+}
+
+header .mixed-menu li a::after {
+  margin-top: 29px;
+  position: absolute;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #393939;
+  content: '';
+  opacity: 0;
+  -webkit-transition: width 0.3s, opacity 0.2s, -webkit-transform 0.3s;
+  -moz-transition: width 0.3s, opacity 0.2s, -moz-transform 0.3s;
+  -o-transition: width 0.3s, opacity 0.2s, -o-transform 0.3s;
+  transition: width 0.3s, opacity 0.2s,-webkit-transform 0.3s,-moz-transform 0.3s,-o-transform 0.3s,transform 0.3s;
+}
+header .mixed-menu li a:hover {
+  text-decoration: none;
+}
+header .mixed-menu li a:hover::after,
+header .mixed-menu li a:focus::after {
+  opacity: 1;
+  width: 100%;
+  text-decoration: none;
+}
+
+/*...................................PRESENTATION...........*/
+
+
+
+
+/*.........................PARCOURS.................*/
+
+
+/*.........................FORMATION.................*/
+
+
+/*.........................EXPERIENCE.................*/
+
+
+/*.........................COMPETENCE.................*/
+
+
+
+/*.........................FRONT.................*/
+
+
+
+/*.........................BACK.................*/
+
+
+
+/*.........................REALISARION.................*/
+
+
+/*.........................CONTACT.................*/
