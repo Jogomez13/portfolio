@@ -4,10 +4,19 @@
 }
 
 body {
-  font-size : 2em;
+  font-size: 2em;
+  background-color: #EEEEEE;
+}
+
+h2,h3 {
+  text-align: center;
 }
 
 
+h3 a {
+  text-decoration: none;
+  color : white;
+}
 
 /*........................NAVIGATION................*/
 
@@ -23,28 +32,24 @@ header .mixed-menu {
 
 header .mixed-menu li {
   float: left;
-  padding-right: 0.8em;
+  padding-right: 0.5em;
 }
 header .mixed-menu li a {
-  font-size: 0.875em;
+  font-size: 0.5em;
   text-decoration: none;
-  font-family: "freight-sans-pro", freightSans, Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-weight: 500;
   display: inline-block;
   position: relative;
+  color : white;
 }
 
-a {
-  color : black;
-}
-
+/* la barre sous le menu */
 header .mixed-menu li a::after {
   margin-top: 29px;
   position: absolute;
   left: 0;
   width: 0%;
   height: 2px;
-  background: #393939;
+  background: white;
   content: '';
   opacity: 0;
   -webkit-transition: width 0.3s, opacity 0.2s, -webkit-transform 0.3s;
@@ -62,6 +67,17 @@ header .mixed-menu li a:focus::after {
   text-decoration: none;
 }
 
+/*...................................ACCUEIL...........*/
+
+#accueil {
+  background-color:#222831;
+  color : white;
+  height : 700px;
+  text-align: center;
+  padding-top: 250px;
+}
+
+
 /*...................................PRESENTATION...........*/
 
 
@@ -77,7 +93,9 @@ header .mixed-menu li a:focus::after {
 
 
 /*.........................COMPETENCE.................*/
-
+#competence {
+  columns: 2;
+}
 
 
 /*.........................FRONT.................*/
@@ -89,6 +107,14 @@ header .mixed-menu li a:focus::after {
 
 
 /*.........................REALISARION.................*/
-
+#ordi {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /*.........................CONTACT.................*/
+#contact {
+  background-color: #393E46;
+  color : #EEEEEE;
+}
