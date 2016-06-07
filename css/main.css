@@ -30,6 +30,7 @@ header .mixed-menu {
   margin-top: 14px;
   margin-right: 15px;
   padding-left: 50px;
+
 }
 
 header .mixed-menu li {
@@ -37,12 +38,13 @@ header .mixed-menu li {
   padding-right: 0.5em;
 }
 header .mixed-menu li a {
-  font-size: 0.5em;
+  font-size: 0.6em;
   text-decoration: none;
   display: inline-block;
   position: relative;
   color : white;
-}
+  text-shadow: 2px 2px black;
+  }
 
 /* la barre sous le menu */
 header .mixed-menu li a::after {
@@ -59,6 +61,7 @@ header .mixed-menu li a::after {
   -o-transition: width 0.3s, opacity 0.2s, -o-transform 0.3s;
   transition: width 0.3s, opacity 0.2s,-webkit-transform 0.3s,-moz-transform 0.3s,-o-transform 0.3s,transform 0.3s;
 }
+
 header .mixed-menu li a:hover {
   text-decoration: none;
 }
@@ -80,13 +83,15 @@ header .logomenu {
 header .logomenu li {
   float: left;
   padding-right: 0.5em;
+
 }
 
-
+/* VOIR SCALE POUR EFFET */
 #logotwitter {
-  padding-top: 10px;
+  padding-top: 7px;
   width : 30px;
   height: 30px;
+
 }
 
 #logofacebook {
@@ -106,14 +111,20 @@ header .logomenu li {
   width : 70px;
   height: 30px;
 }
+
+
+
 /*...................................ACCUEIL...........*/
 
 #accueil {
-  background-image : url(../image/photohome.jpg);
+  background-image : url("../image/photohome.jpg");
+  background-size: cover;
+  background-attachment: fixed;
   color : white;
   height : 700px;
   text-align: center;
   padding-top: 250px;
+  text-shadow: 2px 2px black;
 }
 
 
@@ -121,6 +132,7 @@ header .logomenu li {
 #presentation {
   padding-bottom : 50px;
   padding-top : 30px;
+
 }
 
 #profil {
@@ -139,6 +151,8 @@ header .logomenu li {
 #formation {
   padding-bottom : 50px;
   padding-top : 30px;
+  background-color: #393E46;
+  color : #EEEEEE;
 }
 
 /*.........................EXPERIENCE.................*/
@@ -146,18 +160,22 @@ header .logomenu li {
 #experience {
   padding-bottom : 50px;
   padding-top : 30px;
+
 }
 
 /*.........................COMPETENCE.................*/
 .competence {
   padding-bottom : 50px;
   padding-top : 30px;
-  background-image : url('../image/code.jpg');
+  background-image : url("../image/code.jpg");
+  background-size: cover;
   color : #EEEEEE;
   text-align: center;
+  background-attachment: fixed;
 }
 
-.logofront {
+
+.logoskill {
   width : 100px;
   height: 100px;
 }
@@ -197,5 +215,5 @@ header .logomenu li {
   color : #EEEEEE;
   padding-bottom : 50px;
   padding-top : 30px;
-  
+
 }
