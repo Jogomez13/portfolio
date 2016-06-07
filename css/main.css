@@ -26,9 +26,10 @@ ul {
 }
 
 header .mixed-menu {
-  float: right;
+  float: left;
   margin-top: 14px;
   margin-right: 15px;
+  padding-left: 50px;
 }
 
 header .mixed-menu li {
@@ -69,6 +70,18 @@ header .mixed-menu li a:focus::after {
 }
 
 /*............LOGO NAV...............*/
+header .logomenu {
+  float: right;
+  margin-top: 14px;
+  margin-right: 15px;
+
+}
+
+header .logomenu li {
+  float: left;
+  padding-right: 0.5em;
+}
+
 
 #logotwitter {
   padding-top: 10px;
@@ -96,7 +109,7 @@ header .mixed-menu li a:focus::after {
 /*...................................ACCUEIL...........*/
 
 #accueil {
-  background-color:#222831;
+  background-image : url(../image/photohome.jpg);
   color : white;
   height : 700px;
   text-align: center;
@@ -114,6 +127,8 @@ header .mixed-menu li a:focus::after {
   float : left;
   padding-left: 30px;
   padding-right: 30px;
+  width : 250px;
+  height : 300px;
 }
 
 
@@ -137,15 +152,15 @@ header .mixed-menu li a:focus::after {
 .competence {
   padding-bottom : 50px;
   padding-top : 30px;
-  background-color: #393E46;
+  background-image : url('../image/code.jpg');
   color : #EEEEEE;
   text-align: center;
 }
-#frontback {
-  columns: 2;
 
+.logofront {
+  width : 100px;
+  height: 100px;
 }
-
 
 /*.........................FRONT.................*/
 #front {
@@ -182,4 +197,5 @@ header .mixed-menu li a:focus::after {
   color : #EEEEEE;
   padding-bottom : 50px;
   padding-top : 30px;
+  
 }
