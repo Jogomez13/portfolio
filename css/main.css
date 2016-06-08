@@ -11,13 +11,24 @@ body {
 
 h2 {
   text-align: center;
+  padding-bottom: 35px;
+}
+
+h3 {
+    padding-bottom: 35px;
 }
 
 
 h3 a {
   text-decoration: none;
   color : white;
+
 }
+
+html {
+font-family: 'Montserrat', sans-serif;
+
+  }
 
 /*........................NAVIGATION................*/
 
@@ -29,7 +40,7 @@ header .mixed-menu {
   float: left;
   margin-top: 14px;
   margin-right: 15px;
-  padding-left: 50px;
+  padding-left: 20px;
 
 }
 
@@ -43,7 +54,7 @@ header .mixed-menu li a {
   display: inline-block;
   position: relative;
   color : white;
-  text-shadow: 2px 2px black;
+  text-shadow: 0px 0px 8px black;
   }
 
 /* la barre sous le menu */
@@ -87,23 +98,11 @@ header .logomenu li {
 }
 
 /* VOIR SCALE POUR EFFET */
-#logotwitter {
+.logosociaux {
   padding-top: 7px;
   width : 30px;
   height: 30px;
 
-}
-
-#logofacebook {
-  padding-top: 7px;
-  width : 30px;
-  height: 30px;
-}
-
-#logolinkedin {
-  padding-top: 7px;
-  width : 30px;
-  height: 30px;
 }
 
 #logogithub {
@@ -124,7 +123,9 @@ header .logomenu li {
   height : 700px;
   text-align: center;
   padding-top: 250px;
-  text-shadow: 2px 2px black;
+  text-shadow: 0px 0px 8px black;
+  border-bottom : 5px solid white;
+
 }
 
 
@@ -132,6 +133,7 @@ header .logomenu li {
 #presentation {
   padding-bottom : 50px;
   padding-top : 30px;
+  border-bottom : 5px solid #00ADB5;
 
 }
 
@@ -153,13 +155,26 @@ header .logomenu li {
   padding-top : 30px;
   background-color: #393E46;
   color : #EEEEEE;
+  border-bottom : 5px solid #00ADB5;
+  height: 650px;
+  text-align: center;
 }
 
+#nrc {
+  float : left;
+  padding-left: 25px;
+}
+
+#bac {
+  float : right;
+  padding-right: 25px;
+}
 /*.........................EXPERIENCE.................*/
 
 #experience {
   padding-bottom : 50px;
   padding-top : 30px;
+  border-bottom : 5px solid #00ADB5;
 
 }
 
@@ -172,6 +187,8 @@ header .logomenu li {
   color : #EEEEEE;
   text-align: center;
   background-attachment: fixed;
+  border-bottom : 5px solid #00ADB5;
+
 }
 
 
@@ -181,16 +198,24 @@ header .logomenu li {
 }
 
 /*.........................FRONT.................*/
-#front {
-  padding-bottom : 50px;
-  padding-top : 30px;
-}
+
+
 
 
 /*.........................BACK.................*/
-#back {
-  padding-bottom : 50px;
-  padding-top : 30px;
+
+
+
+/*.........................REALISARION.................*/
+#realisation {
+  border-bottom : 5px solid #393E46;
+}
+#ordi {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom : 100px;
+    padding-top : 30px;
 }
 
 /*.........................LOISIR.................*/
@@ -198,15 +223,8 @@ header .logomenu li {
 #loisir {
   padding-bottom : 100px;
   padding-top : 30px;
-}
-
-/*.........................REALISARION.................*/
-#ordi {
-  display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom : 100px;
-    padding-top : 30px;
+  background-color: #00ADB5;
+  border-bottom : 5px solid #EEEEEE;
 }
 
 /*.........................CONTACT.................*/
@@ -215,5 +233,7 @@ header .logomenu li {
   color : #EEEEEE;
   padding-bottom : 50px;
   padding-top : 30px;
+  border-bottom : 5px solid #00ADB5;
+
 
 }

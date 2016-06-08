@@ -4,6 +4,8 @@
   <meta charset="utf-8">
   <title>Jonathan Gomez || Développeur Web</title>
   <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/animate.css">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
   <script src="./script/script.js"></script>
 </head>
 
@@ -11,7 +13,7 @@
 
 <!--.......................NAVIGATION..............-->
     <nav>
-    <ul class="mixed-menu">
+    <ul class="mixed-menu animated un slideInLeft">
 
 		<li><a href="#accueil">Home</a></li>
 		<li><a href="#presentation">About me</a></li><!-- ma présentation cool-->
@@ -21,14 +23,14 @@
 
   </ul>
 <!--LOGO NAV-->
-  <ul class ="logomenu">
+  <ul class ="logomenu animated deux slideInRight">
 
 	<li><a href="https://twitter.com/Jogomezzzz">
-      <img id="logotwitter" src="./image/logo_twitter.png" alt="Twitter" /></a></li>
+      <img class="logosociaux" src="./image/logo_twitter.png" alt="Twitter" /></a></li>
 		<li><a href="https://www.facebook.com/profile.php?id=100012290583102">
-      <img id="logofacebook" src="./image/logo_facebook.png" alt="Facebook" /></a></li>
+      <img class="logosociaux" src="./image/logo_facebook.png" alt="Facebook" /></a></li>
 		<li><a href="https://fr.linkedin.com/in/jonathan-gomez-04793695">
-      <img id="logolinkedin" src="./image/logo_linkedin.png" alt="Linkedin" /></a></li>
+      <img class="logosociaux" src="./image/logo_linkedin.png" alt="Linkedin" /></a></li>
 		<li><a href="https://github.com/Jogomez13">
       <img id="logogithub" src="./image/logo_github.png" alt="Github" /></a></li>
 
@@ -43,17 +45,18 @@
 
   <section id="accueil">
 
-    <h1>Bienvenue sur mon Portfolio</h1>
-    <h2>Jonathan Gomez Développeur Web</h2>
-    <h3><a href="#presentation">En savoir plus</a><!--ou bouton--></h3>
+    <h1 class="animated deux bounceInDown">Bienvenue sur mon Portfolio</h1>
+    <h2 class="animated deux bounceInLeft">Jonathan Gomez Développeur Web</h2>
+    <h3 class="animated deux bounceInRight"><a href="#presentation"><i>En savoir plus</i></a><!--ou bouton--></h3>
   </section>
 
 <!--...................................PRESENTATION...........-->
 
   <section id="presentation">
-    <h2>A propos de moi</h2>
-    <img id="profil" src="./image/logo_tete.png" alt="Photo de profil" />
-    <p>Incenderat autem audaces usque ad insaniam homines ad haec, quae nefariis egere conatibus,
+    <h2 class="animated bounceInUp un">A propos de moi</h2>
+    <img id="profil" class="animated zoomIn un" src="./image/logo_tete.png" alt="Photo de profil" />
+    <p class="animated bounceInDown un">
+      Incenderat autem audaces usque ad insaniam homines ad haec, quae nefariis egere conatibus,
       Luscus quidam curator urbis subito visus: eosque ut heiulans baiolorum praecentor ad expediendum
       quod orsi sunt incitans vocibus crebris. qui haut longe postea ideo vivus exustus est.Incenderat autem
       audaces usque ad insaniam homines ad haec, quae nefariis egere conatibus, Luscus quidam curator urbis
@@ -72,28 +75,38 @@
 
 <!--.........................FORMATION.................-->
   <section id="formation">
-    <h2>Mon parcours</h2>
+    <h2 class="animated bounceInUp un">Mon parcours</h2>
 
-    <h3>Formation/Diplôme</h3>
+    <h3 class="animated bounceInDown un">Formation/Diplôme</h3>
 
+    <div id="devweb" class="animated bounceInUp deux">
+      <img src="./image/icone/computer.png" alt="devweb" />
     <header><h4>Développeur Web Mobile</h4></header>
     <article>BeWeb Lunel</article>
     <footer>2016</footer>
+  </div>
 
+    <div id="nrc" class="animated bounceInLeft deux">
+    <img src="./image/icone/business-1.png" alt="Vente" />
+    <img src="./image/icone/diplome.png" alt="diplome" />
     <header><h4>BTS Négociation Relation Client</h4></header>
     <article>Rise Montpellier</article>
     <footer>2012</footer>
+  </div>
 
+    <div id="bac" class="animated bounceInRight un">
+    <img src="./image/icone/diplome.png" alt="diplome" />
     <header><h4>BAC STG Marketing</h4></header>
     <article>Lycée Alphonse Daudet Tarascon</article>
     <footer>2010</footer>
+  </div>
 
 
   </section>
 
 <!--.........................EXPERIENCES.................-->
   <section id="experience">
-    <h2>Expériences professionnelles</h2>
+    <h2 class="animated bounceInUp un">Expériences professionnelles</h2>
 
     <!--- ICI UNE FRISE-->
 
@@ -125,38 +138,30 @@
 <!--.........................COMPETENCES.................-->
 <div class="competence">
 
-  <h2>Compétences</h2>
-    <h3>Framework</h3>
-<img class="logoskill" src="./image/logo_bootstrap.png" alt="logo bootstrap" />
-<img class="logoskill" src="./image/logo_symfony.png" alt="logo symfony" />
+  <h2 class="animated bounceInUp un">Compétences</h2>
+    <h3 class="animated bounceInUp un">Framework</h3>
+<img class="logoskill animated rotateIn un" src="./image/logo_bootstrap.png" alt="logo bootstrap" />
+<img class="logoskill animated rotateIn un" src="./image/logo_symfony.png" alt="logo symfony" />
 
 <!--.........................FRONT................-->
   <section id="front">
     <h4>Front</h4>
     <!-- ICI LOGO LANGAGE -->
-    <img class="logoskill" src="./image/logo_html.png" alt="logo html" />
-    <img class="logoskill" src="./image/logo_css.png" alt="logo css" />
-    <img class="logoskill" src="./image/logo_javascript.png" alt="logo javascript" />
+    <img class="logoskill animated rotateIn un" src="./image/logo_html.png" alt="logo html" />
+    <img class="logoskill animated rotateIn un" src="./image/logo_css.png" alt="logo css" />
+    <img class="logoskill animated rotateIn un" src="./image/logo_javascript.png" alt="logo javascript" />
   </section>
 
 <!--.........................BACK.................-->
   <section id="back">
     <h4>Back</h4>
     <!-- ICI LOGO LANGAGE -->
-    <img class="logoskill" src="./image/logo_php.png" alt="logo php" />
-    <img class="logoskill" src="./image/logo_angular.png" alt="logo angular" />
-    <img class="logoskill" src="./image/logo_jquery.png" alt="logo jquery" />
-    <img class="logoskill" src="./image/logo_sql.png" alt="logo sql" />
+    <img class="logoskill animated rotateIn un" src="./image/logo_php.png" alt="logo php" />
+    <img class="logoskill animated rotateIn un" src="./image/logo_angular.png" alt="logo angular" />
+    <img class="logoskill animated rotateIn un" src="./image/logo_jquery.png" alt="logo jquery" />
+    <img class="logoskill animated rotateIn un" src="./image/logo_sql.png" alt="logo sql" />
   </section>
   </div>
-
-  </section>
-<!--.........................LOISIR.................-->
-  <section id="loisir">
-    <h2>Mes loisirs</h2>
-    <p>Lire</p>
-    <p>Web</p>
-    <p>Football</p>
 
   </section>
 
@@ -169,6 +174,15 @@
     <a href="#"><img id="ordi" src="./image/ordi2.png" alt="Photo d'écran" /></a>
 
   </section>
+
+  <!--.........................LOISIR.................-->
+    <section id="loisir">
+      <h2 class="animated bounceInUp un">Mes loisirs</h2>
+      <p>Lire</p>
+      <p>Web</p>
+      <p>Football</p>
+
+    </section>
 
 
   <!--..................CONTACT.........................-->
@@ -183,7 +197,7 @@
       <!--ICONE ENVELOPPE-->
     	<p><img src="./image/icone/envelope.png" alt="mail" />jonathan.gomez.web@gmail.com</p>
 
-      <h3><img src="./image/icone/savecv.png" alt="saveCV" />Téléchargez mon CV</h3>
+      <h3 ><img src="./image/icone/savecv.png" alt="saveCV" />Téléchargez mon CV</h3>
 
   </footer>
 
