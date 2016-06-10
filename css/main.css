@@ -221,10 +221,36 @@ header .logomenu li {
 /*.........................LOISIR.................*/
 
 #loisir {
-  padding-bottom : 100px;
-  padding-top : 30px;
   background-color: #00ADB5;
   border-bottom : 5px solid #EEEEEE;
+
+}
+
+.imgloisir {
+  width: 400px;
+  height: 500px;
+  border : 5px solid #EEEEEE;
+  margin-bottom: 10px;
+}
+
+#passion {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+
+}
+.elementpassion {
+
+  color : #00ADB5;
+  width: 410px;
+  height : 600px;
+  font-size: 0.7em;
+
+
+}
+
+figure.imghvr-zoom-in {
+  height :500px;
 }
 
 /*.........................CONTACT.................*/
