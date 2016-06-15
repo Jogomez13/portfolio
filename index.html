@@ -3,9 +3,10 @@
 <head>
   <meta charset="utf-8">
   <title>Jonathan Gomez || Développeur Web</title>
-  <link rel="stylesheet" href="./css/main.css">
+
   <link rel="stylesheet" href="./css/animate.css">
   <link rel="stylesheet" href="./css/imagehover.css">
+  <link rel="stylesheet" href="./css/main.css">
   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
   <script src="./script/script.js"></script>
 </head>
@@ -48,7 +49,7 @@
 
     <h1 class="animated deux bounceInDown">Bienvenue sur mon Portfolio</h1>
     <h2 class="animated deux bounceInLeft">Jonathan Gomez Développeur Web</h2>
-    <h3 class="animated deux bounceInRight"><a href="#presentation"><i>En savoir plus</i></a><!--ou bouton--></h3>
+    <a href="#presentation"><img id="fleche" class="animated deux bounceInUp" src="./image/icone/arrows.png" alt="fleche" /></a>
   </section>
 
 <!--...................................PRESENTATION...........-->
@@ -178,36 +179,49 @@
 
   <!--.........................LOISIR.................-->
     <section id="loisir">
-      <h2 class="animated bounceInUp un">Mes loisirs</h2>
+      <h2 class="animated bounceInUp un">En dehors de mon Job</h2>
 
       <div id="passion">
       <div class = "elementpassion">
-      <header><h4>Lecture</h4></header>
-      <figure class="imghvr-zoom-in"><img class="imgloisir" src="./image/livre.jpg" alt="example-image">
+      <figure class="imghvr-zoom-in"><img class="imgloisir" src="./image/livre2.jpg" alt="example-image">
         <figcaption>
-          <h3>Hello World</h3>
-          <p>Life is too important to be taken seriously!</p>
+          <h3>Je suis un lecteur assidu</h3>
+
+          <p>
+            Je me suis lancé le défi de lire les
+            <a class="personal"href="https://personalmba.com/best-business-books/">99 livres du Personal MBA</a>
+            (qui recense les meilleurs livres Business).</br></br>
+
+
+
+          A ce jour, j'en ai lu 24.
+
+          </p>
         </figcaption>
       </figure>
 
     </div>
 
     <div class="elementpassion">
-    <header><h4>Football</h4></header>
     <figure class="imghvr-zoom-in"><img class="imgloisir" src="./image/velodrome2.jpg" alt="example-image">
       <figcaption>
-        <h3>Hello World</h3>
-        <p>Life is too important to be taken seriously!</p>
+        <h3>Mordu de football</h3>
+        <p>Je suis passionné de foot depuis tout jeune, je pratique ce sport depuis l'âge de 7 ans.
+        Il m'a inculqué des valeurs comme l'esprit d'équipe, de compétition, la solidarité.
+      Je suis également abonné au Stade Vélodrome(Olympique de Marseille). J'ai d'ailleurs un
+      <a class="personal"href="http://www.om-maniac.fr/">
+        Blog</a>,
+        une page <a class="personal"href="https://www.facebook.com/OM.Maniac.13/">Facebook</a> et
+        un <a class="personal"href="https://twitter.com/ommaniac">Twitter</a> consacré à l'OM.</p>
       </figcaption>
     </figure>
 
   </div>
 
   <div class="elementpassion">
-  <header><h4>Envie de voyage</h4></header>
   <figure class="imghvr-zoom-in"><img class="imgloisir" src="./image/voyage.jpg" alt="example-image">
     <figcaption>
-      <h3>Hello World</h3>
+      <h3>Je souhaite voyager</h3>
       <p>Life is too important to be taken seriously!</p>
     </figcaption>
   </figure>
@@ -218,19 +232,27 @@
 
   <!--..................CONTACT.........................-->
 
-  <footer id="contact">
+  <footer id="footer">
 
+    <section id="formulaire">
+    <h3>Formulaire</h3>
+
+    </section>
+
+      <section id="contact">
     	<h3>Contact</h3>
       <!--ICONE FLECHE LOCALISATION-->
-    	<p><img src="./image/icone/house-1.png" alt="adresse" />40 Rue de la redoute 30 300 Beaucaire</p>
+    	<p><img src="./image/icone/gps.png" alt="adresse" />40 Rue de la redoute 30 300 Beaucaire</p>
       <!--ICONE TELEPHONE-->
-    	<p><img src="./image/icone/tel.png" alt="tel" />06.19.85.33.15</p>
+    	<p><img src="./image/icone/apple.png" alt="tel" />06.19.85.33.15</p>
       <!--ICONE ENVELOPPE-->
-    	<p><img src="./image/icone/envelope.png" alt="mail" />jonathan.gomez.web@gmail.com</p>
+    	<p><img src="./image/icone/web.png" alt="mail" />jonathan.gomez.web@gmail.com</p>
 
-      <h3 ><img src="./image/icone/savecv.png" alt="saveCV" />Téléchargez mon CV</h3>
+      <p><img src="./image/icone/save.png" alt="saveCV" />Téléchargez mon CV</p>
 
-  </footer>
+    </section>
+
+      </footer>
 
 
 

@@ -116,7 +116,7 @@ header .logomenu li {
 /*...................................ACCUEIL...........*/
 
 #accueil {
-  background-image : url("../image/photohome.jpg");
+  background-image : url("../image/photohome5.jpg");
   background-size: cover;
   background-attachment: fixed;
   color : white;
@@ -126,6 +126,12 @@ header .logomenu li {
   text-shadow: 0px 0px 8px black;
   border-bottom : 5px solid white;
 
+}
+
+#fleche {
+
+  width: 50px;
+  height: 50px;
 }
 
 
@@ -158,6 +164,8 @@ header .logomenu li {
   border-bottom : 5px solid #00ADB5;
   height: 650px;
   text-align: center;
+  text-shadow: 0px 0px 8px black;
+
 }
 
 #nrc {
@@ -188,6 +196,7 @@ header .logomenu li {
   text-align: center;
   background-attachment: fixed;
   border-bottom : 5px solid #00ADB5;
+  text-shadow: 0px 0px 8px black;
 
 }
 
@@ -208,8 +217,13 @@ header .logomenu li {
 
 /*.........................REALISARION.................*/
 #realisation {
-  border-bottom : 5px solid #393E46;
+  border-bottom : 5px solid white;
 }
+
+#realisation h2 {
+  margin-top: 40px;
+}
+
 #ordi {
     display: block;
     margin-left: auto;
@@ -221,32 +235,40 @@ header .logomenu li {
 /*.........................LOISIR.................*/
 
 #loisir {
-  background-color: #00ADB5;
+  background-color: #C0C0C0;
   border-bottom : 5px solid #EEEEEE;
+  color : white;
+  text-shadow: 0px 0px 8px black;
 
 }
 
 .imgloisir {
-  width: 400px;
+  width: 450px;
   height: 500px;
-  border : 5px solid #EEEEEE;
+
   margin-bottom: 10px;
+
 }
 
 #passion {
   display: flex;
-  justify-content: space-around;
-  text-align: center;
+  font-size : 0.650em;
+  margin-bottom: 80px;
 
 }
 .elementpassion {
-
   color : #00ADB5;
-  width: 410px;
-  height : 600px;
-  font-size: 0.7em;
+  width: 430px;
+  height : 500px;
+  font-size: 0.650em;
+  text-shadow: 0px 0px 8px white;
 
+}
 
+a.personal {
+  position: relative;
+  text-decoration: none;
+  color : #00ADB5;
 }
 
 figure.imghvr-zoom-in {
@@ -254,12 +276,34 @@ figure.imghvr-zoom-in {
 }
 
 /*.........................CONTACT.................*/
-#contact {
+#footer {
   background-color: #393E46;
   color : #EEEEEE;
   padding-bottom : 50px;
   padding-top : 30px;
   border-bottom : 5px solid #00ADB5;
+  font-size: 0.5em;
+  height: 400px;
+  text-shadow: 0px 0px 8px black
+}
+
+#contact img {
+ width : 50px;
+ height: 50px;
+ margin-left: 10px;
+ margin-right: 10px;
+}
 
 
+
+#formulaire {
+  float: left;
+  margin-top: 30px;
+  margin-left: 80px;
+}
+
+#contact {
+  float : right;
+  margin-top: 30px;
+  margin-right: 90px;
 }
