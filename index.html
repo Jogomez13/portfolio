@@ -8,14 +8,17 @@
   <link rel="stylesheet" href="./css/imagehover.css">
   <link rel="stylesheet" href="./css/main.css">
   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <script src="./script/wow.min.js"></script>
   <script src="./script/script.js"></script>
+
+
 </head>
 
 <header>
 
 <!--.......................NAVIGATION..............-->
     <nav>
-    <ul class="mixed-menu animated un slideInLeft">
+    <ul class="mixed-menu wow slideInLeft" data-wow-duration="3s" data-wow-delay="500ms">
 
 		<li><a href="#accueil">Home</a></li>
 		<li><a href="#presentation">About me</a></li><!-- ma présentation cool-->
@@ -25,7 +28,7 @@
 
   </ul>
 <!--LOGO NAV-->
-  <ul class ="logomenu animated deux slideInRight">
+  <ul class ="logomenu wow slideInRight" data-wow-duration="3s" data-wow-delay="500ms">
 
 	<li><a href="https://twitter.com/Jogomezzzz">
       <img class="logosociaux" src="./image/logo_twitter.png" alt="Twitter" /></a></li>
@@ -47,17 +50,23 @@
 
   <section id="accueil">
 
-    <h1 class="animated deux bounceInDown">Bienvenue sur mon Portfolio</h1>
-    <h2 class="animated deux bounceInLeft">Jonathan Gomez Développeur Web</h2>
-    <a href="#presentation"><img id="fleche" class="animated deux bounceInUp" src="./image/icone/arrows.png" alt="fleche" /></a>
+    <h1 class="wow bounceInDown" data-wow-duration="3s" data-wow-delay="500ms">
+      Bienvenue sur mon Portfolio</h1>
+    <h2 class="wow bounceInLeft"data-wow-duration="3s" data-wow-delay="500ms" data-wow-offset="200">
+      Jonathan Gomez Développeur Web</h2>
+    <a href="#presentation">
+      <img class="fleche wow infinite bounce" data-wow-duration="2s" data-wow-delay="1500ms"
+      src="./image/icone/arrows.png" alt="fleche" /></a>
   </section>
 
 <!--...................................PRESENTATION...........-->
 
   <section id="presentation">
-    <h2 class="animated bounceInUp un">A propos de moi</h2>
-    <img id="profil" class="animated zoomIn un" src="./image/logo_tete.png" alt="Photo de profil" />
-    <p class="animated bounceInDown un">
+    <h2 class="wow slideInLeft" data-wow-duration="2s" data-wow-delay="450ms" data-wow-offset="200">
+      A propos de moi</h2>
+    <img id="profil" class="wow zoomIn" data-wow-duration="2s" data-wow-delay="850ms" data-wow-offset="300"
+    src="./image/logo_tete.png" alt="Photo de profil" />
+    <p class="wow bounceInUp" data-wow-duration="2s" data-wow-delay="1050ms" data-wow-offset="400">
       Incenderat autem audaces usque ad insaniam homines ad haec, quae nefariis egere conatibus,
       Luscus quidam curator urbis subito visus: eosque ut heiulans baiolorum praecentor ad expediendum
       quod orsi sunt incitans vocibus crebris. qui haut longe postea ideo vivus exustus est.Incenderat autem
@@ -70,25 +79,24 @@
       heiulans baiolorum praecentor ad expediendum quod orsi sunt incitans vocibus crebris. qui haut longe postea
       ideo vivus exustus est.est.exustus est.</p>
 
-
   </section>
 
   <!--.........................PARCOURS.................-->
 
 <!--.........................FORMATION.................-->
   <section id="formation">
-    <h2 class="animated bounceInUp un">Mon parcours</h2>
+    <h2 class="wow bounceInDown" data-wow-duration="600ms" data-wow-delay="550ms" data-wow-offset="300">Mon parcours</h2>
 
-    <h3 class="animated bounceInDown un">Formation/Diplôme</h3>
+    <h3 class="wow bounceInUp" data-wow-duration="600ms" data-wow-delay="400ms">Formation/Diplôme</h3>
 
-    <div id="devweb" class="animated bounceInUp deux">
+    <div id="devweb" class="wow bounceInUp" data-wow-duration="600ms" data-wow-delay="400ms"data-wow-offset="300">
       <img src="./image/icone/computer.png" alt="devweb" />
     <header><h4>Développeur Web Mobile</h4></header>
     <article>BeWeb Lunel</article>
     <footer>2016</footer>
   </div>
 
-    <div id="nrc" class="animated bounceInLeft deux">
+    <div id="nrc" class="wow bounceInLeft" data-wow-duration="600ms" data-wow-delay="350ms"data-wow-offset="100">
     <img src="./image/icone/business-1.png" alt="Vente" />
     <img src="./image/icone/diplome.png" alt="diplome" />
     <header><h4>BTS Négociation Relation Client</h4></header>
@@ -96,7 +104,7 @@
     <footer>2012</footer>
   </div>
 
-    <div id="bac" class="animated bounceInRight un">
+    <div id="bac" class="wow bounceInRight" data-wow-duration="600ms" data-wow-delay="350ms"data-wow-offset="100">
     <img src="./image/icone/diplome.png" alt="diplome" />
     <header><h4>BAC STG Marketing</h4></header>
     <article>Lycée Alphonse Daudet Tarascon</article>
@@ -108,7 +116,7 @@
 
 <!--.........................EXPERIENCES.................-->
   <section id="experience">
-    <h2 class="animated bounceInUp un">Expériences professionnelles</h2>
+    <h2 class="wow bounceInUp" data-wow-duration="600ms" data-wow-delay="450ms">Expériences professionnelles</h2>
 
     <!--- ICI UNE FRISE-->
 
@@ -140,28 +148,37 @@
 <!--.........................COMPETENCES.................-->
 <div class="competence">
 
-  <h2 class="animated bounceInUp un">Compétences</h2>
-    <h3 class="animated bounceInUp un">Framework</h3>
-<img class="logoskill animated rotateIn un" src="./image/logo_bootstrap.png" alt="logo bootstrap" />
-<img class="logoskill animated rotateIn un" src="./image/logo_symfony.png" alt="logo symfony" />
+  <h2 class="wow bounceInUp" data-wow-duration="600ms" data-wow-delay="450ms"data-wow-offset="200">Compétences</h2>
+    <h3 class="wow bounceInUp" data-wow-duration="600ms" data-wow-delay="450ms"data-wow-offset="200">Framework</h3>
+<img class="logoskill wow rotateIn" data-wow-duration="600ms" data-wow-delay="450ms" data-wow-offset="200"
+src="./image/logo_bootstrap.png" alt="logo bootstrap" />
+<img class="logoskill wow rotateIn" data-wow-duration="1200ms" data-wow-delay="450ms" data-wow-offset="200"
+src="./image/logo_symfony.png" alt="logo symfony" />
 
 <!--.........................FRONT................-->
   <section id="front">
-    <h4>Front</h4>
+    <h4 class="wow bounceInUp" data-wow-duration="600ms" data-wow-delay="150ms">Front</h4>
     <!-- ICI LOGO LANGAGE -->
-    <img class="logoskill animated rotateIn un" src="./image/logo_html.png" alt="logo html" />
-    <img class="logoskill animated rotateIn un" src="./image/logo_css.png" alt="logo css" />
-    <img class="logoskill animated rotateIn un" src="./image/logo_javascript.png" alt="logo javascript" />
+    <img class="logoskill wow rotateIn" data-wow-duration="600ms" data-wow-delay="450ms" data-wow-offset="200"
+    src="./image/logo_html.png" alt="logo html" />
+    <img class="logoskill wow rotateIn" data-wow-duration="600ms" data-wow-delay="450ms" data-wow-offset="200"
+    src="./image/logo_css.png" alt="logo css" />
+    <img class="logoskill wow rotateIn" data-wow-duration="600ms" data-wow-delay="450ms" data-wow-offset="200"
+    src="./image/logo_javascript.png" alt="logo javascript" />
   </section>
 
 <!--.........................BACK.................-->
   <section id="back">
-    <h4>Back</h4>
+    <h4 class="wow bounceInUp" data-wow-duration="600ms" data-wow-delay="450ms"data-wow-offset="100">Back</h4>
     <!-- ICI LOGO LANGAGE -->
-    <img class="logoskill animated rotateIn un" src="./image/logo_php.png" alt="logo php" />
-    <img class="logoskill animated rotateIn un" src="./image/logo_angular.png" alt="logo angular" />
-    <img class="logoskill animated rotateIn un" src="./image/logo_jquery.png" alt="logo jquery" />
-    <img class="logoskill animated rotateIn un" src="./image/logo_sql.png" alt="logo sql" />
+    <img class="logoskill wow rotateIn" data-wow-duration="600ms" data-wow-delay="450ms" data-wow-offset="200"
+    src="./image/logo_php.png" alt="logo php" />
+    <img class="logoskill wow rotateIn" data-wow-duration="600ms" data-wow-delay="450ms" data-wow-offset="200"
+    src="./image/logo_angular.png" alt="logo angular" />
+    <img class="logoskill wow rotateIn" data-wow-duration="600ms" data-wow-delay="450ms" data-wow-offset="200"
+    src="./image/logo_jquery.png" alt="logo jquery" />
+    <img class="logoskill wow rotateIn" data-wow-duration="600ms" data-wow-delay="450ms" data-wow-offset="200"
+    src="./image/logo_sql.png" alt="logo sql" />
   </section>
   </div>
 
@@ -179,7 +196,8 @@
 
   <!--.........................LOISIR.................-->
     <section id="loisir">
-      <h2 class="animated bounceInUp un">En dehors de mon Job</h2>
+      <h2 class="wow bounceInUp" data-wow-duration="600ms" data-wow-delay="450ms" data-wow-offset="200">
+        En dehors de mon Job</h2>
 
       <div id="passion">
       <div class = "elementpassion">
