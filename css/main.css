@@ -147,9 +147,18 @@ header .logomenu li {
 #profil {
   float : left;
   padding-left: 30px;
-  padding-right: 30px;
+  padding-right: 50px;
   width : 250px;
   height : 300px;
+}
+
+#apropos {
+  margin-left: 250px;
+  margin-right: 150px;
+}
+
+#apropos2 {
+  padding-left: 30px;
 }
 
 
