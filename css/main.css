@@ -19,9 +19,9 @@ h3 {
 }
 
 
-h3 a {
+a {
   text-decoration: none;
-  color : white;
+  color : #00ADB5;
 
 }
 
@@ -144,6 +144,7 @@ header .logomenu li {
 
 }
 
+
 #profil {
   float : left;
   padding-left: 30px;
@@ -155,9 +156,10 @@ header .logomenu li {
 #apropos {
   margin-left: 250px;
   margin-right: 150px;
+  margin-bottom: 50px;
 }
 
-#apropos2 {
+#temoignage {
   padding-left: 30px;
 }
 
@@ -239,6 +241,7 @@ header .logomenu li {
     padding-top : 30px;
 }
 
+
 /*.........................LOISIR.................*/
 
 #loisir {
@@ -279,6 +282,13 @@ figure.imghvr-zoom-in {
   height :500px;
 }
 
+#ommaniac {
+  padding-top: 30px;
+  padding-right: 50px;
+  padding-left: 50px;
+  height: 200px;
+  width: 350px;
+}
 /*.........................CONTACT.................*/
 #footer {
   background-color: #393E46;
