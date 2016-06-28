@@ -14,6 +14,7 @@
   <script src="./script/script.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script src="./script/smoothscroll.js"></script>
+	<script src="./script/modernizr.js"></script> <!-- Modernizr -->
 
 </head>
 
@@ -79,8 +80,7 @@
     <h3 class=" wow bounceInUp" data-wow-duration="1s" data-wow-delay="850ms">A propos de moi</h3>
 
     <p id="apropos" class=" wow bounceInUp" data-wow-duration="2s" data-wow-delay="1050ms">
-      J'aime expérimenter, découvrir et
-      apprendre au fur et à mesure de mes projets pros et perso.
+      J'aime expérimenter, découvrir et apprendre au fur et à mesure de mes projets pros et perso.
 
     </p>
 
@@ -97,6 +97,7 @@
     <footer class=" wow bounceInUp" data-wow-duration="1s" data-wow-delay="850ms">
       Barack Obama, Président Américain, Client heureux</footer>
 
+
   </section>
 
   <!--.........................PARCOURS.................-->
@@ -105,7 +106,7 @@
   <section id="formation">
     <h2 class="wow bounceInDown" data-wow-duration="600ms" data-wow-delay="550ms" data-wow-offset="300">Mon parcours</h2>
 
-    <h3 class="wow bounceInUp" data-wow-duration="600ms" data-wow-delay="400ms">Formation/Diplôme</h3>
+    <h3 class="wow bounceInDown" data-wow-duration="600ms" data-wow-delay="400ms">Formation/Diplôme</h3>
 
     <div id="devweb" class="wow bounceInUp" data-wow-duration="600ms" data-wow-delay="400ms"data-wow-offset="300">
       <img src="./image/icone/computer.png" alt="devweb" />
@@ -138,34 +139,94 @@
 
     <!--- ICI UNE FRISE-->
 
-    <header><h4>Community Manager</h4></header>
-    <article>Avril 2016-Novembre 2016</article>
-    <footer>BeWeb</footer>
+    <section class="cd-horizontal-timeline">
+  		<div class="timeline">
+  			<div class="events-wrapper">
+  				<div class="events">
+  					<ol>
+  						<li><a href="#0" data-date="16/01/2014" class="selected">16 Jan</a></li>
+  						<li><a href="#0" data-date="28/02/2014">28 Feb</a></li>
+              <li><a href="#0" data-date="28/03/2014">28 Feb</a></li>
+              <li><a href="#0" data-date="28/04/2014">28 Feb</a></li>
+              <li><a href="#0" data-date="28/05/2014">28 Feb</a></li>
+              <li><a href="#0" data-date="28/06/2014">28 Feb</a></li>
 
-      <header><h4>Opérateur de réception</h4></header>
-      <article>Intérim Juillet 2010-Décembre 2010</article>
-      <footer>FIBRE EXCELLENCE</footer>
+  						<!-- other dates here -->
+  					</ol>
 
-      <header><h4>Attaché Commercial</h4></header>
-      <article>Contrat de professionalisation Janvier 2011-Août2012</article>
-      <footer>STORES MICHEL</footer>
+  					<span class="filling-line" aria-hidden="true"></span>
+  				</div> <!-- .events -->
+  			</div> <!-- .events-wrapper -->
 
-      <header><h4>Responsable Location</h4></header>
-      <article>Intérim 1 mois Janvier 2014</article>
-      <footer>LOXAM</footer>
+  			<ul class="cd-timeline-navigation">
 
-      <header><h4>Conseiller de Vente</h4></header>
-      <article>CDD 1 mois Juin 2014</article>
-      <footer>NORAUTO</footer>
+  			</ul> <!-- .cd-timeline-navigation -->
+  		</div> <!-- .timeline -->
 
-      <header><h4>Opérateur de réception</h4></header>
-      <article>Intérim Avril 2014-Avril 2016</article>
-      <footer>FIBRE EXCELLENCE</footer>
+  		<div class="events-content">
+  			<ol>
+  				<li class="selected" data-date="16/01/2014">
+  					<h2>Horizontal Timeline</h2>
+  					<em>January 16th, 2014</em>
+  					<p>
+  						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+  					</p>
+  				</li>
+
+  				<li data-date="28/02/2014">
+  					<!-- event description here -->
+  					<h2>Horizontal Timeline</h2>
+  					<em>January 16th, 2014</em>
+  					<p>
+  						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+  					</p>
+  				</li>
+
+          <li data-date="28/03/2014">
+  					<!-- event description here -->
+  					<h2>Horizontal Timeline</h2>
+  					<em>January 16th, 2014</em>
+  					<p>
+  						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+  					</p>
+  				</li>
+
+          <li data-date="28/04/2014">
+  					<!-- event description here -->
+  					<h2>Horizontal Timeline</h2>
+  					<em>January 16th, 2014</em>
+  					<p>
+  						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+  					</p>
+  				</li>
+
+          <li data-date="28/05/2014">
+  					<!-- event description here -->
+  					<h2>Horizontal Timeline</h2>
+  					<em>January 16th, 2014</em>
+  					<p>
+  						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+  					</p>
+  				</li>
+
+          <li data-date="28/06/2014">
+  					<!-- event description here -->
+  					<h2>Horizontal Timeline</h2>
+  					<em>January 16th, 2014</em>
+  					<p>
+  						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+  					</p>
+  				</li>
+
+  				<!-- other descriptions here -->
+  			</ol>
+  		</div> <!-- .events-content -->
+  	</section>
+
+      </section>
 
 
-  </section>
 
-  </section>
 
 <!--.........................COMPETENCES.................-->
 <div class="competence">
@@ -300,7 +361,9 @@ src="./image/logo_symfony.png" alt="logo symfony" />
 
       </footer>
 
-
+      <script src="./script/jquery-2.1.4.js"></script>
+      <script src="./script/jquery.mobile.custom.min.js"></script>
+      <script src="./script/main.js"></script> <!-- Resource jQuery -->
 
 </body>
 </html>
