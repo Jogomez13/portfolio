@@ -1,0 +1,9 @@
+/* résolution pour pc */
+
+  @import url("./mobile/accueil.css");
+  @import url("./mobile/presentation.css");
+  @import url("./mobile/parcours.css");
+  @import url("./mobile/competence.css");
+  @import url("./mobile/realisation.css");
+  @import url("./mobile/loisir.css");
+  @import url("./mobile/contact.css");

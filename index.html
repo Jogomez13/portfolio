@@ -2,19 +2,20 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no">
   <title>Jonathan Gomez || Développeur Web</title>
-  <link rel="icon" type="image/png" href= "./image/logo_tete.png"/>
-  <link rel="stylesheet" href="./css/animate.css">
-  <link rel="stylesheet" href="./css/imagehover.css">
-  <link rel="stylesheet" href="./css/normalize.css">
-  <link rel="stylesheet" href="./css/main.css">
+  <link rel="icon" type="image/png" href= "./portfolio/image/logo_tete.png"/>
+  <link rel="stylesheet" href="./portfolio/css/animate.css">
+  <link rel="stylesheet" href="./portfolio/css/imagehover.css">
+  <link rel="stylesheet" href="./portfolio/css/normalize.css">
+  <link rel="stylesheet" href="./portfolio/css/main.css">
 
   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-  <script src="./script/wow.min.js"></script>
-  <script src="./script/script.js"></script>
+  <script src="./portfolio/script/wow.min.js"></script>
+  <script src="./portfolio/script/script.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script src="./script/smoothscroll.js"></script>
-	<script src="./script/modernizr.js"></script> <!-- Modernizr -->
+  <script src="./portfolio/script/smoothscroll.js"></script>
+
 
 </head>
 
@@ -22,7 +23,7 @@
 
 <!--.......................NAVIGATION..............-->
     <nav>
-    <ul class="mixed-menu wow slideInLeft" data-wow-duration="3s" data-wow-delay="500ms">
+    <ul class="mixed-menu wow bounceInUp" data-wow-duration="3s" data-wow-delay="500ms">
 
 		<li><a href="#accueil">Home</a></li>
 		<li><a class="js-scrollTo" href="#presentation">About me</a></li><!-- ma présentation cool-->
@@ -32,16 +33,16 @@
 
   </ul>
 <!--LOGO NAV-->
-  <ul class ="logomenu wow slideInRight" data-wow-duration="3s" data-wow-delay="500ms">
+  <ul class ="container-fluid logomenu wow bounceInUp" data-wow-duration="3s" data-wow-delay="500ms">
 
 	<li><a href="https://twitter.com/Jogomezzzz">
-      <img class="logosociaux" src="./image/logo_twitter.png" alt="Twitter" /></a></li>
+      <img class="logosociaux" src="./portfolio/image/logo_twitter.png" alt="Twitter" /></a></li>
 		<li><a href="https://www.facebook.com/profile.php?id=100012290583102">
-      <img class="logosociaux" src="./image/logo_facebook.png" alt="Facebook" /></a></li>
+      <img class="logosociaux" src="./portfolio/image/logo_facebook.png" alt="Facebook" /></a></li>
 		<li><a href="https://fr.linkedin.com/in/jonathan-gomez-04793695">
-      <img class="logosociaux" src="./image/logo_linkedin.png" alt="Linkedin" /></a></li>
+      <img class="logosociaux" src="./portfolio/image/logo_linkedin.png" alt="Linkedin" /></a></li>
 		<li><a href="https://github.com/Jogomez13">
-      <img id="logogithub" src="./image/logo_github.png" alt="Github" /></a></li>
+      <img id="logogithub" src="./portfolio/image/logo_github.png" alt="Github" /></a></li>
 
 	</ul>
 
@@ -56,16 +57,16 @@
 
     <h1 class="wow bounceInDown" data-wow-duration="3s" data-wow-delay="500ms">
       Bienvenue sur mon Portfolio</h1>
-    <h2 class="wow bounceInLeft"data-wow-duration="3s" data-wow-delay="500ms" data-wow-offset="200">
+    <h2 class="wow bounceInDown"data-wow-duration="3s" data-wow-delay="500ms" data-wow-offset="200">
       Jonathan Gomez Développeur Web</h2>
     <a class="js-scrollTo" href="#presentation">
       <img class="fleche wow infinite bounce" data-wow-duration="2s" data-wow-delay="1500ms"
-      src="./image/icone/arrows.png" alt="fleche" /></a>
+      src="./portfolio/image/icone/arrows.png" alt="fleche" /></a>
   </section>
 
 <!--...................................PRESENTATION...........-->
 
-  <section id="presentation">
+  <section  id="presentation">
     <h2 class="wow slideInLeft" data-wow-duration="2s" data-wow-delay="450ms" data-wow-offset="200">
       Vous cherchez un Développeur Web ?</h2>
       <p class="wow slideInLeft" data-wow-duration="2s" data-wow-delay="450ms" data-wow-offset="200">
@@ -75,7 +76,7 @@
         Si mon profil vous intéresse n'hésitez pas à me contacter ou regardez
         <a href="#realisation">mes réalisations.</a></p></br>
     <img id="profil" class="wow zoomIn" data-wow-duration="2s" data-wow-delay="850ms" data-wow-offset="300"
-    src="./image/logo_tete.png" alt="Photo de profil" />
+    src="./portfolio/image/logo_tete.png" alt="Photo de profil" />
 
     <h3 class=" wow bounceInUp" data-wow-duration="1s" data-wow-delay="850ms">A propos de moi</h3>
 
@@ -94,8 +95,8 @@
       Jonathan est super, beau, gentil, il travaille bien. C'est mon idole. Un talent inné, c'est le meilleur.
     Une sorte de Dieu du développement c'est pour tout ça qu'il faut l'embaucher. Ah oui il sent super bon aussi.
     </p>
-    <footer class=" wow bounceInUp" data-wow-duration="1s" data-wow-delay="850ms">
-      Barack Obama, Président Américain, Client heureux</footer>
+    <p class=" wow bounceInUp" data-wow-duration="1s" data-wow-delay="850ms">
+      Barack Obama, Président Américain, Client heureux</p>
 
 
   </section>
@@ -104,30 +105,28 @@
 
 <!--.........................FORMATION.................-->
   <section id="formation">
-    <h2 class="wow bounceInDown" data-wow-duration="600ms" data-wow-delay="550ms" data-wow-offset="300">Mon parcours</h2>
-
-    <h3 class="wow bounceInDown" data-wow-duration="600ms" data-wow-delay="400ms">Formation/Diplôme</h3>
+    <h2 class="wow bounceInDown" data-wow-duration="600ms" data-wow-delay="350ms" data-wow-offset="300">Formation/Diplôme</h2>
 
     <div id="devweb" class="wow bounceInUp" data-wow-duration="600ms" data-wow-delay="400ms"data-wow-offset="300">
-      <img src="./image/icone/computer.png" alt="devweb" />
-    <header><h4>Développeur Web Mobile</h4></header>
+      <img class="iconeetude" src="./portfolio/image/icone/computer.png" alt="devweb" />
+    <h4>Développeur Web Mobile</h4>
     <article>BeWeb Lunel</article>
-    <footer>2016</footer>
+    <p>2016<p>
   </div>
 
     <div id="nrc" class="wow bounceInLeft" data-wow-duration="600ms" data-wow-delay="350ms"data-wow-offset="100">
-    <img src="./image/icone/business-1.png" alt="Vente" />
-    <img src="./image/icone/diplome.png" alt="diplome" />
-    <header><h4>BTS Négociation Relation Client</h4></header>
+    <img class="iconeetude"src="./portfolio/image/icone/business-1.png" alt="Vente" />
+    <img class="iconeetude"src="./portfolio/image/icone/diplome.png" alt="diplome" />
+    <h4>BTS Négociation Relation Client</h4>
     <article>Rise Montpellier</article>
-    <footer>2012</footer>
+    <p>2012</p>
   </div>
 
     <div id="bac" class="wow bounceInRight" data-wow-duration="600ms" data-wow-delay="350ms"data-wow-offset="100">
-    <img src="./image/icone/diplome.png" alt="diplome" />
-    <header><h4>BAC STG Marketing</h4></header>
+    <img class="iconeetude" src="./portfolio/image/icone/diplome.png" alt="diplome" />
+    <h4>BAC STG Marketing</h4>
     <article>Lycée Alphonse Daudet Tarascon</article>
-    <footer>2010</footer>
+    <p>2010</p>
   </div>
 
 
@@ -137,6 +136,23 @@
   <section id="experience">
     <h2 class="wow bounceInUp" data-wow-duration="600ms" data-wow-delay="450ms">Expériences professionnelles</h2>
 
+    <div id="expmobile">
+      <h3>Community Manager</h3>
+      <em>Avril 2016 à Novembre 2016,BEWEB, Lunel</em>
+
+      <h3>Opérateur de Réception</h3>
+      <em>Intérim d'Avril 2014 à Avril 2016, FIBRE EXCELLENCE(Tarascon)</em>
+
+      <h3>Responsable location</h3>
+      <em>Intérim Janvier 2014 LOXAM, Fos sur Mer.</em>
+
+      <h3>Conseiller de vente</h3>
+      <em>CDD NORAUTO Juin 2014, Les Angles.</em>
+
+      <h3>Attaché Commercial</h3>
+      <em>Contrat de professionalisation Janvier 2011 à Août 2012, STORES MICHEL, Nîmes</em>
+
+    </div>
     <!--- ICI UNE FRISE-->
 
     <section class="cd-horizontal-timeline">
@@ -144,12 +160,11 @@
   			<div class="events-wrapper">
   				<div class="events">
   					<ol>
-  						<li><a href="#0" data-date="16/01/2014" class="selected">16 Jan</a></li>
-  						<li><a href="#0" data-date="28/02/2014">28 Feb</a></li>
-              <li><a href="#0" data-date="28/03/2014">28 Feb</a></li>
-              <li><a href="#0" data-date="28/04/2014">28 Feb</a></li>
-              <li><a href="#0" data-date="28/05/2014">28 Feb</a></li>
-              <li><a href="#0" data-date="28/06/2014">28 Feb</a></li>
+  						<li><a href="#0" data-date="16/01/2014" class="selected">2016</a></li>
+              <li><a href="#0" data-date="28/03/2014">2015</a></li>
+              <li><a href="#0" data-date="28/04/2014">2014</a></li>
+              <li><a href="#0" data-date="28/05/2014">2012</a></li>
+              <li><a href="#0" data-date="28/06/2014">2010</a></li>
 
   						<!-- other dates here -->
   					</ol>
@@ -166,61 +181,81 @@
   		<div class="events-content">
   			<ol>
   				<li class="selected" data-date="16/01/2014">
-  					<h2>Horizontal Timeline</h2>
-  					<em>January 16th, 2014</em>
+  					<h2>Community Manager</h2>
+  					<em>Avril 2016 à Novembre 2016,BEWEB, Lunel</em>
   					<p>
-  						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
-  					</p>
+               Missions : Je suis chargé de représenter BeWeb sur les réseaux sociaux. Je gère donc le compte Twitter
+               ainsi que le compte Facebook de Beweb.<br><br>
+               Compétences pour ce poste : Qualités rédactionnelles, fiabilité, réactivité et sociabilité.
+            </p>
   				</li>
 
-  				<li data-date="28/02/2014">
-  					<!-- event description here -->
-  					<h2>Horizontal Timeline</h2>
-  					<em>January 16th, 2014</em>
-  					<p>
-  						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
-  					</p>
-  				</li>
 
           <li data-date="28/03/2014">
   					<!-- event description here -->
-  					<h2>Horizontal Timeline</h2>
-  					<em>January 16th, 2014</em>
+  					<h2>Opérateur de Réception</h2>
+  					<em>Intérim d'Avril 2014 à Avril 2016, FIBRE EXCELLENCE(Tarascon)</em>
   					<p>
-  						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
-  					</p>
+              Activité : Production pâte à papier.<br>
+
+              Mission : Accueil physique et téléphonique, saisie informatique, gestion de planning,
+              contrôle quantitatif et qualitatif du bois.
+
+              Compétences acquises : Esprit d'équipe, rigueur et sens relationnel.<br>
+              Logiciels utilisés : SIF (systeme informatique forestier sur la base du logiciel Oracle) Word et Excel.
+            </p>
   				</li>
 
           <li data-date="28/04/2014">
   					<!-- event description here -->
-  					<h2>Horizontal Timeline</h2>
-  					<em>January 16th, 2014</em>
+  					<h2>Responsable location puis Conseiller de Vente</h2>
+  					<em>Intérim Janvier 2014 LOXAM, Fos sur Mer.</em>
+
   					<p>
-  						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
-  					</p>
-  				</li>
+            Activité LOXAM: Location de matériel pour BTP, Industrie etc.</p>
+            <em>CDD NORAUTO Juin 2014, Les Angles.</em>
+            <p>
+            Activité NORAUTO: Location de matériel pour BTP, Industrie etc.<br><br>
+
+            Mission : Accueil client, gestion du planning et des réservations,
+            relance téléphonique, réalisation de bons de commandes, mailing, création de contrat.<br><br>
+
+            Compétences acquises : Sens relationnel, adaptabilité et réactivité.
+          </p>
+
 
           <li data-date="28/05/2014">
   					<!-- event description here -->
-  					<h2>Horizontal Timeline</h2>
-  					<em>January 16th, 2014</em>
+  					<h2>Attaché Commercial</h2>
+  					<em>Contrat de professionalisation Janvier 2011 à Août 2012, STORES MICHEL, Nîmes</em>
+
   					<p>
-  						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
-  					</p>
+               Missions : Accueil physique et téléphonique, réalisation de bons de commandes,réalisation de projets
+               commerciaux, prospection téléphonique/physique, mailing, création d’offres promotionnelles
+               ainsi que de fidélisation.
+
+               Logiciels utilisés : Word et Excel.
+            </p>
   				</li>
 
           <li data-date="28/06/2014">
   					<!-- event description here -->
-  					<h2>Horizontal Timeline</h2>
-  					<em>January 16th, 2014</em>
+  					<h2>Opérateur de Réception</h2>
+  					<em>Intérim Juillet 2010 à Décembre 2010, FIBRE EXCELLENCE(Tarascon)</em>
   					<p>
-  						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
-  					</p>
+              Activité : Production pâte à papier.<br><br>
+
+              Mission : Accueil physique et téléphonique, saisie informatique, gestion de planning,
+              contrôle quantitatif et qualitatif du bois.<br><br>
+
+              Compétences acquises : Esprit d'équipe, rigueur et sens relationnel.<br><br>
+              Logiciels utilisés : SIF (systeme informatique forestier sur la base du logiciel Oracle) Word et Excel.
+  				  </p>
   				</li>
 
-  				<!-- other descriptions here -->
   			</ol>
   		</div> <!-- .events-content -->
+
   	</section>
 
       </section>
@@ -234,20 +269,22 @@
   <h2 class="wow bounceInUp" data-wow-duration="600ms" data-wow-delay="450ms"data-wow-offset="200">Compétences</h2>
     <h3 class="wow bounceInUp" data-wow-duration="600ms" data-wow-delay="450ms"data-wow-offset="200">Framework</h3>
 <img class="logoskill wow rotateIn" data-wow-duration="600ms" data-wow-delay="450ms" data-wow-offset="200"
-src="./image/logo_bootstrap.png" alt="logo bootstrap" />
+src="./portfolio/image/logo_bootstrap.png" alt="logo bootstrap" />
 <img class="logoskill wow rotateIn" data-wow-duration="1200ms" data-wow-delay="450ms" data-wow-offset="200"
-src="./image/logo_symfony.png" alt="logo symfony" />
+src="./portfolio/image/logo_symfony.png" alt="logo symfony" />
 
 <!--.........................FRONT................-->
   <section id="front">
     <h4 class="wow bounceInUp" data-wow-duration="600ms" data-wow-delay="150ms">Front</h4>
     <!-- ICI LOGO LANGAGE -->
     <img class="logoskill wow rotateIn" data-wow-duration="600ms" data-wow-delay="450ms" data-wow-offset="200"
-    src="./image/logo_html.png" alt="logo html" />
+    src="./portfolio/image/logo_html.png" alt="logo html" />
     <img class="logoskill wow rotateIn" data-wow-duration="600ms" data-wow-delay="450ms" data-wow-offset="200"
-    src="./image/logo_css.png" alt="logo css" />
+    src="./portfolio/image/logo_css.png" alt="logo css" />
     <img class="logoskill wow rotateIn" data-wow-duration="600ms" data-wow-delay="450ms" data-wow-offset="200"
-    src="./image/logo_javascript.png" alt="logo javascript" />
+    src="./portfolio/image/logo_javascript.png" alt="logo javascript" />
+    <img class="logoskill wow rotateIn" data-wow-duration="600ms" data-wow-delay="450ms" data-wow-offset="200"
+    src="./portfolio/image/logo_angular.png" alt="logo angular" />
   </section>
 
 <!--.........................BACK.................-->
@@ -255,13 +292,11 @@ src="./image/logo_symfony.png" alt="logo symfony" />
     <h4 class="wow bounceInUp" data-wow-duration="600ms" data-wow-delay="450ms"data-wow-offset="100">Back</h4>
     <!-- ICI LOGO LANGAGE -->
     <img class="logoskill wow rotateIn" data-wow-duration="600ms" data-wow-delay="450ms" data-wow-offset="200"
-    src="./image/logo_php.png" alt="logo php" />
+    src="./portfolio/image/logo_php.png" alt="logo php" />
     <img class="logoskill wow rotateIn" data-wow-duration="600ms" data-wow-delay="450ms" data-wow-offset="200"
-    src="./image/logo_angular.png" alt="logo angular" />
+    src="./portfolio/image/logo_jquery.png" alt="logo jquery" />
     <img class="logoskill wow rotateIn" data-wow-duration="600ms" data-wow-delay="450ms" data-wow-offset="200"
-    src="./image/logo_jquery.png" alt="logo jquery" />
-    <img class="logoskill wow rotateIn" data-wow-duration="600ms" data-wow-delay="450ms" data-wow-offset="200"
-    src="./image/logo_sql.png" alt="logo sql" />
+    src="./portfolio/image/logo_sql.png" alt="logo sql" />
   </section>
   </div>
 
@@ -273,7 +308,7 @@ src="./image/logo_symfony.png" alt="logo symfony" />
     <h2>Mes réalisations</h2>
     <!--..........ICI UN ECRAN......-->
 
-    <a href="#"><img id="ordi" src="./image/ordi2.png" alt="Photo d'écran" /></a>
+    <a href="#"><img id="ordi" src="./portfolio/image/ordi2.png" alt="Photo d'écran" /></a>
 
   </section>
 
@@ -284,7 +319,7 @@ src="./image/logo_symfony.png" alt="logo symfony" />
 
       <div id="passion">
       <div class = "elementpassion">
-      <figure class="imghvr-zoom-in"><img class="imgloisir" src="./image/learningaddict.png" alt="livre">
+      <figure class="imghvr-zoom-in"><img class="imgloisir" src="./portfolio/image/learningaddict.png" alt="livre">
         <figcaption>
           <h3>Learning addict</h3>
 
@@ -301,6 +336,8 @@ src="./image/logo_symfony.png" alt="logo symfony" />
             est d'aider ses membres à améliorer leurs compétences en matière de communication et de leadership par
             la prise de parole en public.
 
+            JE VAIS A DES CONFERENCES
+
           </p>
         </figcaption>
       </figure>
@@ -308,7 +345,7 @@ src="./image/logo_symfony.png" alt="logo symfony" />
     </div>
 
     <div class="elementpassion">
-    <figure class="imghvr-zoom-in"><img class="imgloisir" src="./image/velodrome2.jpg" alt="velodrome">
+    <figure class="imghvr-zoom-in"><img class="imgloisir" src="./portfolio/image/velodrome2.jpg" alt="velodrome">
       <figcaption>
         <h3>Mordu de football</h3>
         <p>Je suis passionné de foot depuis tout jeune, je pratique ce sport depuis l'âge de 7 ans.
@@ -319,14 +356,14 @@ src="./image/logo_symfony.png" alt="logo symfony" />
         une page <a class="personal"href="https://www.facebook.com/OM.Maniac.13/">Facebook</a> et
         un <a class="personal"href="https://twitter.com/ommaniac">Twitter</a> consacré à l'OM.</p>
         <a class="personal"href="http://www.om-maniac.fr/">
-          <img id="ommaniac" src="./image/om.maniac.png" alt="om maniac"></a>
+          <img id="ommaniac" src="./portfolio/image/om.maniac.png" alt="om maniac"></a>
       </figcaption>
     </figure>
 
   </div>
 
   <div class="elementpassion">
-  <figure class="imghvr-zoom-in"><img class="imgloisir" src="./image/voyage.jpg" alt="voyage">
+  <figure class="imghvr-zoom-in"><img class="imgloisir" src="./portfolio/image/voyage.jpg" alt="voyage">
     <figcaption>
       <h3>Je souhaite voyager</h3>
       <p>Je veux découvrir le monde</p>
@@ -341,29 +378,30 @@ src="./image/logo_symfony.png" alt="logo symfony" />
 
   <footer id="footer">
 
-    <section id="formulaire">
-    <h3>Formulaire</h3>
-
-    </section>
 
       <section id="contact">
-    	<h3>Contact</h3>
+    	<h2>Contact</h2>
       <!--ICONE FLECHE LOCALISATION-->
-    	<p><img src="./image/icone/gps.png" alt="adresse" />40 Rue de la redoute 30 300 Beaucaire</p>
+    	<img class="imgcontact" src="./portfolio/image/icone/gps.png" alt="adresse" /><br>
+      <p>40 Rue de la redoute 30 300 Beaucaire</p>
       <!--ICONE TELEPHONE-->
-    	<p><img src="./image/icone/apple.png" alt="tel" />06.19.85.33.15</p>
+    	<img class="imgcontact" src="./portfolio/image/icone/apple.png" alt="tel" /><br>
+      <p>06.19.85.33.15</p>
       <!--ICONE ENVELOPPE-->
-    	<p><img src="./image/icone/web.png" alt="mail" />jonathan.gomez.web@gmail.com</p>
+    	<img class="imgcontact" src="./portfolio/image/icone/web.png" alt="mail" /><br>
+      <p>jonathan.gomez.web@gmail.com</p>
 
-      <p><img src="./image/icone/save.png" alt="saveCV" />Téléchargez mon CV</p>
+
+      <p id="copyright">Copyright © 2016 | Jonathan Gomez | Mentions légales</p>
 
     </section>
+
 
       </footer>
 
-      <script src="./script/jquery-2.1.4.js"></script>
-      <script src="./script/jquery.mobile.custom.min.js"></script>
-      <script src="./script/main.js"></script> <!-- Resource jQuery -->
+      <script src="./portfolio/script/jquery-2.1.4.js"></script>
+      <script src="./portfolio/script/jquery.mobile.custom.min.js"></script>
+      <script src="./portfolio/script/main.js"></script> <!-- Resource jQuery -->
 
 </body>
 </html>
