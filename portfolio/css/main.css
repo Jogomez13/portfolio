@@ -50,14 +50,18 @@ h1 {
 
 
 h2 {
-
-  text-align: center;
   padding-top: 50px;
+  text-align: center;
   padding-bottom: 35px;
 }
 
 h3 {
     padding-bottom: 35px;
+}
+
+h4 {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 a {
@@ -177,7 +181,7 @@ header .logomenu li {
 /*...................................ACCUEIL...........*/
 
 #accueil {
-  background-image : url("../image/photohome5.jpg");
+  background-color: #222831;
   background-size: cover;
   background-attachment: fixed;
   color : white;
@@ -189,16 +193,9 @@ header .logomenu li {
 
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   #accueil {
   background-image : url("../image/photohome5.jpg");
-  background-attachment: fixed;
-  color : white;
-  height : 400px;
-  text-align: center;
-  padding-top: 250px;
-  text-shadow: 0px 0px 8px black;
-  border-bottom : 5px solid white;
 }
 }
 
@@ -262,7 +259,7 @@ header .logomenu li {
 
 /*.........................FORMATION.................*/
 #formation {
-  padding-bottom : 50px;
+  padding-bottom : 100px;
   padding-top : 30px;
   background-color: #393E46;
   color : #EEEEEE;
@@ -315,15 +312,10 @@ header .logomenu li {
 
 #bac {
   float : right;
-  padding-right: 25px;
+  padding-right: 40px;
 }
 
-@media (max-width: 768px) and (min-width: 992px) {
-  #bac {
-    padding-right: 0px;
-    margin-right: 10px;
-  }
-}
+
 
 /*.........................EXPERIENCE.................*/
 
@@ -724,7 +716,7 @@ FRISE
 .competence {
   padding-bottom : 50px;
   padding-top : 30px;
-  background-image : url("../image/code.jpg");
+  background-color : #393E46;
   background-size: cover;
   color : #EEEEEE;
   text-align: center;
@@ -732,6 +724,12 @@ FRISE
   border-bottom : 5px solid #00ADB5;
   text-shadow: 0px 0px 8px black;
 
+}
+
+@media (min-width: 768px) {
+  .competence {
+  background-image : url("../image/code.jpg");
+}
 }
 
 
@@ -789,7 +787,6 @@ FRISE
 .imgloisir {
   width: 450px;
   height: 500px;
-  margin-bottom: 10px;
 
 }
 
@@ -802,16 +799,19 @@ figure.imghvr-zoom-in {
 #passion {
   display: flex;
   justify-content: center;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
 
 }
 
 @media (max-width: 768px) {
-  #passion {
-    display: block;
+#passion {
 
-  }
+  margin-bottom: 300px;
+
 }
+}
+
+
 
 .elementpassion {
   color : #00ADB5;
@@ -825,8 +825,9 @@ figure.imghvr-zoom-in {
 @media (max-width: 768px) {
   .elementpassion {
     width: 320px;
-    height : 400px;
-    font-size: 0.675em;
+    height : 300px;
+    font-size: 0.59em;
+    padding-top: 100px;
   }
 }
 
@@ -843,6 +844,12 @@ a.personal {
   padding-left: 50px;
   height: 200px;
   width: 350px;
+}
+
+@media (max-width: 768px) {
+  #ommaniac {
+    display: none;
+  }
 }
 /*.........................CONTACT.................*/
 #footer {
@@ -870,8 +877,8 @@ a.personal {
    width : 40px;
    height: 40px;
    margin-left: 45%;
-   margin-top: 10px;
-   margin-bottom: 10px;
+   margin-top: 0px;
+   margin-bottom: 5px;
 
   }
 }
@@ -883,7 +890,15 @@ a.personal {
 
 #copyright {
 
-  padding-top: 80px;
+  padding-top: 30px;
   font-size: 0.8em;
   letter-spacing: 5px;
+}
+
+
+@media (max-width: 768px) {
+  #copyright {
+    padding-top: 10px;
+
+  }
 }
