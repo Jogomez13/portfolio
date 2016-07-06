@@ -200,6 +200,10 @@ header .logomenu li {
 }
 }
 
+#accueil h2 {
+  padding-top: 0px;
+}
+
 .fleche {
 
   width: 50px;
@@ -371,6 +375,24 @@ FRISE
 
 -------------------------------- */
 
+.community {
+  height: 200px;
+  width: 300px;
+  margin-top: 20px;
+  margin-left: 200px;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .community {
+    height: 180px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+}
+.cd-horizontal-timeline {
+  padding-bottom: 0;
+}
 .cd-horizontal-timeline {
   opacity: 0;
   margin: 2em auto;
@@ -720,7 +742,7 @@ FRISE
   }
 }
 
-@media (max-width: 768px) and (min-width: 992px){
+@media (min-width: 768px) and (min-width: 992px){
    .cd-horizontal-timeline {
     visibility: visible;
   }
@@ -788,6 +810,10 @@ FRISE
     width: 620px;
     height: 620px;
   }
+}
+
+#realisation {
+  margin-bottom: 50px;
 }
 
 
