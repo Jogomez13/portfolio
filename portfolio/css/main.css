@@ -259,6 +259,15 @@ header .logomenu li {
   margin-left: 300px;
 }
 
+@media (max-width: 768px) {
+  .nomclient {
+    font-size: 0.8em;
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+
+}
+
 
 /*.........................PARCOURS.................*/
 
@@ -791,15 +800,29 @@ FRISE
 }
 
 .imgloisir {
-  width: 450px;
+  width: 350px;
   height: 500px;
 
 }
 
+@media (max-width: 768px) {
+  .imgloisir {
+    width: 450px;
+    height: 300px;
+
+  }
+}
 
 figure.imghvr-zoom-in {
   height :500px;
 
+}
+
+@media (max-width: 768px) {
+  figure.imghvr-zoom-in {
+    height :300px;
+
+  }
 }
 
 #passion {
@@ -812,11 +835,10 @@ figure.imghvr-zoom-in {
 @media (max-width: 768px) {
 #passion {
 
-  margin-bottom: 300px;
+  margin-bottom: 100px;
 
 }
 }
-
 
 
 .elementpassion {
@@ -832,8 +854,8 @@ figure.imghvr-zoom-in {
   .elementpassion {
     width: 320px;
     height : 300px;
-    font-size: 0.59em;
-    padding-top: 100px;
+    font-size: 0.5em;
+
   }
 }
 
