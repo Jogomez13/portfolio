@@ -10,6 +10,11 @@
   padding : 0;
 }
 
+html {
+font-family: 'Montserrat', sans-serif;
+
+  }
+
 body {
   font-size: 1.4em;
   background-color: #EEEEEE;
@@ -64,16 +69,17 @@ h4 {
   padding-bottom: 20px;
 }
 
+p {
+  margin-left: 10px;
+}
+
 a {
   text-decoration: none;
   color : #00ADB5;
 
 }
 
-html {
-font-family: 'Montserrat', sans-serif;
 
-  }
 
 /*........................NAVIGATION................*/
 
@@ -812,8 +818,9 @@ FRISE
   }
 }
 
-#realisation {
-  margin-bottom: 50px;
+#textpro {
+  padding-bottom: 50px;
+  tex
 }
 
 
