@@ -193,6 +193,7 @@ header .logomenu li {
 
 }
 
+
 @media (min-width: 768px) {
   #accueil {
   background-image : url("../image/photohome5.jpg");
@@ -248,10 +249,15 @@ header .logomenu li {
 
 }
 
-#temoignage {
+.temoignage {
   padding-left: 30px;
 }
 
+.nomclient {
+  font-size: 0.8em;
+  margin-top: 10px;
+  margin-left: 300px;
+}
 
 
 /*.........................PARCOURS.................*/

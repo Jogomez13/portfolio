@@ -7,6 +7,8 @@
   <link rel="icon" type="image/png" href= "./portfolio/image/logo_tete.png"/>
   <link rel="stylesheet" href="./portfolio/css/animate.css">
   <link rel="stylesheet" href="./portfolio/css/imagehover.css">
+  <link rel="stylesheet" href="./portfolio/css/unslider.css">
+    <link rel="stylesheet" href="./portfolio/css/unslider-dots.css">
   <link rel="stylesheet" href="./portfolio/css/normalize.css">
   <link rel="stylesheet" href="./portfolio/css/main.css">
 
@@ -57,9 +59,9 @@
 
     <h1 class="wow bounceInDown" data-wow-duration="3s" data-wow-delay="500ms">
       Bienvenue sur mon Portfolio</h1>
-    <h2 class="wow bounceInDown"data-wow-duration="3s" data-wow-delay="500ms" data-wow-offset="200">
+    <h2 class="wow bounceInDown"data-wow-duration="3s" data-wow-delay="500ms">
       Jonathan Gomez Développeur Web</h2>
-    <a class="js-scrollTo" href="#presentation">
+    <a href="#presentation">
       <img class="fleche wow infinite bounce" data-wow-duration="2s" data-wow-delay="1500ms"
       src="./portfolio/image/icone/arrows.png" alt="fleche" /></a>
   </section>
@@ -71,9 +73,9 @@
       Vous cherchez un Développeur Web ?</h2>
       <p class="wow slideInLeft" data-wow-duration="2s" data-wow-delay="450ms" data-wow-offset="200">
       Ça tombe bien ! Je suis passionné par le web et je suis actuellement une formation de Développeur Web
-        au sein de <a class="js-scrollTo" href="#">BeWeb</a>
+        au sein de <a class="js-scrollTo" href="#">BeWeb</a>.
 
-        Si mon profil vous intéresse n'hésitez pas à me contacter ou regardez
+        Si mon profil vous intéresse n'hésitez pas à me <a href="#contact">contacter</a> et à regarder
         <a href="#realisation">mes réalisations.</a></p></br>
     <img id="profil" class="wow zoomIn" data-wow-duration="2s" data-wow-delay="850ms" data-wow-offset="300"
     src="./portfolio/image/logo_tete.png" alt="Photo de profil" />
@@ -84,19 +86,19 @@
       J'aime expérimenter, découvrir et apprendre au fur et à mesure de mes projets pros et perso.
 
     </p>
-
-    <div>
-      <!-- Ici logo de mes qualités : "curieux", "aime apprendre", "esprit d'equipe"...-->
+    <div class="automatic-slider">
+    	<ul>
+    		<li><p class="wow bounceInUp" data-wow-duration="1s" data-wow-delay="850ms">
+          Jonathan est super, beau, gentil, il travaille bien. C'est mon idole. Un talent inné, c'est le meilleur.
+        Une sorte de Dieu du développement c'est pour tout ça qu'il faut l'embaucher. Ah oui il sent super bon aussi.
+        </p>
+        <p class=" nomclient wow bounceInUp" data-wow-duration="1s" data-wow-delay="850ms">
+          <em>Barack Obama, Président Américain, Client heureux</em></p></li>
+    		<li>Another slide</li>
+    		<li>My last slide</li>
+    	</ul>
     </div>
-
-    <h3 class=" wow bounceInUp" data-wow-duration="1s" data-wow-delay="850ms">Ils m'ont fait confiance</h3>
-
-    <p id="temoignage" class=" wow bounceInUp" data-wow-duration="1s" data-wow-delay="850ms">
-      Jonathan est super, beau, gentil, il travaille bien. C'est mon idole. Un talent inné, c'est le meilleur.
-    Une sorte de Dieu du développement c'est pour tout ça qu'il faut l'embaucher. Ah oui il sent super bon aussi.
-    </p>
-    <p class=" wow bounceInUp" data-wow-duration="1s" data-wow-delay="850ms">
-      Barack Obama, Président Américain, Client heureux</p>
+    </div>
 
 
   </section>
@@ -391,9 +393,17 @@ src="./portfolio/image/logo_symfony.png" alt="logo symfony" />
 
       </footer>
 
-      <script src="./portfolio/script/jquery-2.1.4.js"></script>
+      <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	     <script src="./portfolio/js/unslider.js"></script>
       <script src="./portfolio/script/jquery.mobile.custom.min.js"></script>
       <script src="./portfolio/script/main.js"></script> <!-- Resource jQuery -->
+
+      <script>
+  $('.automatic-slider').unslider({
+autoplay: true
+});
+
+	</script>
 
 </body>
 </html>
