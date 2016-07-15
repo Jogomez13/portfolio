@@ -202,7 +202,7 @@ header .logomenu li {
 
 @media (min-width: 768px) {
   #accueil {
-  background-image : url("../image/photohome5.jpg");
+  background-image : url("../image/photohome5.png");
 }
 }
 
@@ -795,6 +795,10 @@ FRISE
   margin-top: 40px;
 }
 
+#textpro {
+  padding-bottom: 50px;
+}
+
 #ordi {
     display: block;
     margin-left: auto;
@@ -818,10 +822,7 @@ FRISE
   }
 }
 
-#textpro {
-  padding-bottom: 50px;
-  tex
-}
+
 
 
 /*.........................LOISIR.................*/
