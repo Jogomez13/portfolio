@@ -33,9 +33,9 @@
 			//  Only accepts boolean true/false.
 			autoplay: false,
 
-			//  5 second delay between slides moving, pass
+			//  20 second delay between slides moving, pass
 			//  as a number in milliseconds.
-			delay: 5000,
+			delay: 20000,
 
 			//  Animation speed in millseconds
 			speed: 750,

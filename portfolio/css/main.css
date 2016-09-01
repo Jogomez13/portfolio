@@ -167,7 +167,7 @@ header .logomenu li {
 
 }
 
-
+/* VOIR SCALE POUR EFFET */
 .logosociaux {
   padding-top: 7px;
   width : 30px;
@@ -214,26 +214,10 @@ header .logomenu li {
 #presentation {
   padding-bottom : 50px;
   padding-top : 30px;
-  border-bottom : 5px solid #00ADB5;
-
-}
-
-
-#profil {
-  float : left;
   padding-left: 30px;
-  padding-right: 50px;
-  width : 250px;
-  height : 300px;
-}
-@media (max-width: 768px) {
-  #profil {
-    float : left;
-    padding-left: 5px;
-    padding-right: 15px;
-    width : 150px;
-    height : 200px;
-  }
+  padding-right: 30px;
+  border-bottom : 5px solid #00ADB5;
+  text-align: justify;
 }
 
 #apropos {
@@ -337,7 +321,7 @@ header .logomenu li {
 /*.........................EXPERIENCE.................*/
 
 #experience {
-  padding-bottom : 50px;
+  padding-bottom : 250px;
   padding-top : 30px;
   border-bottom : 5px solid #00ADB5;
   height: 850px;
@@ -376,7 +360,7 @@ FRISE
 .community {
   height: 200px;
   width: 300px;
-  margin-top: 20px;
+  margin-top: 0px;
   margin-left: 200px;
 }
 
@@ -651,7 +635,7 @@ FRISE
     font-size: 1.1rem;
   }
   .cd-horizontal-timeline .events-content p {
-    font-size: 0.8rem;
+    font-size: 1rem;
     padding-right: 50px;
   }
 }
@@ -920,7 +904,7 @@ a.personal {
 .imgcontact {
  width : 40px;
  height: 40px;
- margin-left: 48%;
+ margin-left: 49%;
  padding-top: 15px;
  padding-bottom: 15px;
 

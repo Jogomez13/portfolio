@@ -1,0 +1,32 @@
+h1 {
+font-family: 'Montserrat', sans-serif;
+  }
+
+body {
+    padding-top: 70px;
+    background-color: #EEEEEE;
+}
+
+@media (max-width: 768px) {
+.titre {
+  text-align: center;
+}
+}
+
+.thumb {
+    margin-bottom: 30px;
+}
+
+.projets {
+  background-size: cover;
+}
+
+#ommaniac {
+  background-image : url("../img/om.maniac.png");
+}
+#premiercv {
+    background-image : url("../img/premiercv.png");
+}
+#beweb {
+    background-image : url("../img/beweb.png");
+}
