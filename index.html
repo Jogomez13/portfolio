@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -18,22 +19,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no">
   <title>Jonathan Gomez || Développeur Web</title>
   <link rel="icon" type="image/png" href= "./portfolio/image/logo_tete.png"/>
-  <!--implémentation des animations-->
   <link rel="stylesheet" href="./portfolio/css/animate.css">
-  <!--implémentation des hover-->
   <link rel="stylesheet" href="./portfolio/css/imagehover.css">
-  <!--implémentation du css pour le switch de mes expériences professionnelles-->
   <link rel="stylesheet" href="./portfolio/css/unslider.css">
     <link rel="stylesheet" href="./portfolio/css/unslider-dots.css">
   <link rel="stylesheet" href="./portfolio/css/normalize.css">
   <link rel="stylesheet" href="./portfolio/css/main.css">
-  <!--implémentation de la police via google font-->
+
   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-  <!--implémentation des animations wow-->
   <script src="./portfolio/script/wow.min.js"></script>
   <script src="./portfolio/script/script.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <!--implémentation de la smoothscroll-->
   <script src="./portfolio/script/smoothscroll.js"></script>
 
 
@@ -47,7 +43,7 @@
 
 		<li><a href="#accueil">Home</a></li>
 		<li><a class="js-scrollTo" href="#presentation">About me</a></li><!-- ma présentation cool-->
-		<li><a class="js-scrollTo" href="#formation">Parcours</a></li> <!--Formations, expériences et compétences-->
+		<li><a class="js-scrollTo" href="#formation">Parcours</a></li> <!--Formations, expèriences et compétences-->
 		<li><a class="js-scrollTo" href="#realisation">Work</a></li><!--Mes réalisations-->
 		<li><a class="js-scrollTo" href="#contact">Contact</a></li>
 
@@ -89,12 +85,10 @@
       Vous cherchez un Développeur Web ?</h2>
       <p class="wow slideInLeft" data-wow-duration="2s" data-wow-delay="450ms" data-wow-offset="200">
       Ça tombe bien ! Je suis passionné par le web et je suis actuellement une formation de Développeur Web
-        au sein de <a class="js-scrollTo" href="#" target="new">BeWeb</a>. J'aime expérimenter, découvrir et apprendre au fur et à mesure.
+        au sein de <a class="js-scrollTo" href="http://fabrique-beweb.com/" target="new">BeWeb</a>. J'aime expérimenter, découvrir et apprendre au fur et à mesure.
       <a href="#contact">Contactez</a> moi et jetez un coup d'oeil à <a href="#realisation">mes réalisations.</a></p><br>
 
     <h3 class=" wow bounceInUp" data-wow-duration="1s" data-wow-delay="850ms">On parle de moi</h3>
-
-    <!--ici j'appele la classe qui automatic slider qui me permet de switcher les témoignages-->
     <div class="automatic-slider">
     	<ul>
     		<li><p class="wow bounceInUp" data-wow-duration="1s" data-wow-delay="850ms">
@@ -163,7 +157,6 @@ Bref, chanceux sont ceux qui ont, auront, le plaisir de travailler avec lui !
   <section id="experience">
     <h2 class="wow bounceInUp" data-wow-duration="600ms" data-wow-delay="450ms">Expériences professionnelles</h2>
 
-<!--partie qui s'affiche quand c'est un mobile-->
     <div id="expmobile">
       <h3>Développeur web & Community Manager</h3>
       <em>Avril 2016 à Novembre 2016,BEWEB, Lunel</em>
@@ -181,7 +174,7 @@ Bref, chanceux sont ceux qui ont, auront, le plaisir de travailler avec lui !
       <em>Contrat de professionalisation Janvier 2011 à Août 2012, STORES MICHEL, Nîmes</em>
 
     </div>
-    <!--ici la frise qui s'affiche quand c'est un écran de pc-->
+    <!--- ICI UNE FRISE-->
 
     <section class="cd-horizontal-timeline">
   		<div class="timeline">
@@ -292,13 +285,11 @@ Bref, chanceux sont ceux qui ont, auront, le plaisir de travailler avec lui !
   				</li>
 
   			</ol>
-  		</div> <!-- fin de frise-->
+  		</div> <!-- .events-content -->
 
   	</section>
 
       </section>
-
-
 
 
 
@@ -358,10 +349,74 @@ Déterminé à travailler plus dur et plus fort.
     </p>
 
     <!--..........ICI UN ECRAN......-->
-    <a href="./page_projet/projets.html"><img id="ordi" src="./portfolio/image/ordi.png" alt="Mes projets" /></a>
+    <div id="portfolio" class="realisations">
+       <div>
 
+         <div class="all-projects">
 
+           <a class="lien" href="https://github.com/Jogomez13" target="_blank">
+             <div class="projet">
+               <div class="capture">
+                 <img src="./portfolio/image/mongithub.png" alt="" width="350" height="220">
+               </div>
+               <p class="descrip">
+                 <span>Mon Github</span><br>
+               </p>
+             </div>
+           </a>
+           <a class="lien" href="./portfolio/PremierCV/index.html" target="_blank">
+             <div class="projet">
+               <div class="capture">
+                 <img src="./portfolio/image/premiercv.png" alt="" width="350" height="220">
+               </div>
+               <p class="descrip">
+                 <span>Donut Whole</span><br>
+                 HTML5 / CSS3
+               </p>
+             </div>
+           </a>
 
+           <a class="lien" href="http://om-maniac.fr/" target="_blank">
+             <div class="projet">
+               <div class="capture">
+                 <img src="./portfolio/image/om.maniac.png" alt="OM Maniac" width="350" height="220">
+               </div>
+               <p class="descrip">
+                 <span>OM Maniac</span><br>
+                WORDPRESS<br>
+               </p>
+             </div>
+           </a>
+           <a class="lien" href="http://fabrique-beweb.com/" target="_blank">
+             <div class="projet">
+               <div class="capture">
+                 <img src="./portfolio/image/beweb.png" alt="beweb" width="350" height="220">
+               </div>
+               <p class="descrip">
+                 <span>BeWeb</span><br>
+                 HTML5 / CSS3<br>
+                 Boostrap/ SASS<br>
+                 JS / JQuery
+               </p>
+             </div>
+           </a>
+
+           <a class="lien" href="https://github.com/Jogomez13/LePetitCoin" target="_blank">
+             <div class="projet">
+               <div class="capture">
+                 <img src="./portfolio/image/lepetitcoin.png" alt="" width="350" height="220">
+               </div>
+               <p class="descrip">
+                 <span>Le Petit Coin</span><br>
+                 HTML5 / CSS3<br>
+                 PHP5 / SYMFONY2
+               </p>
+             </div>
+           </a>
+         </div>
+         </div>
+       </div>
+     </div>
 
   </section>
 
@@ -372,8 +427,6 @@ Déterminé à travailler plus dur et plus fort.
 
       <div id="passion">
       <div class = "elementpassion">
-
-        <!--effet hover sur les images section loisir grâce aux class du fichier imagehover-->
       <figure class="imghvr-zoom-in"><img class="imgloisir" src="./portfolio/image/learningaddict.png" alt="livre">
         <figcaption>
           <h3>Learning addict</h3>
@@ -434,7 +487,6 @@ Déterminé à travailler plus dur et plus fort.
     	<img class="imgcontact" src="./portfolio/image/icone/apple.png" alt="tel" /><br>
       <p>06.19.85.33.15</p>
       <!--ICONE ENVELOPPE-->
-    	<a class="mail" href="mailto:jonathan.gomez.web@gmail.com">
         <img class="imgcontact" src="./portfolio/image/icone/web.png" alt="mail" /></a><br>
       <a class="mail" href="mailto:jonathan.gomez.web@gmail.com"><p>jonathan.gomez.web@gmail.com</p></a>
 
@@ -452,7 +504,6 @@ Déterminé à travailler plus dur et plus fort.
       <script src="./portfolio/script/jquery.mobile.custom.min.js"></script>
       <script src="./portfolio/script/main.js"></script> <!-- Resource jQuery -->
 
-<!--script pour appeler automatic-slider qui me permet de switcher les témoignages-->
       <script>
   $('.automatic-slider').unslider({
 autoplay: true
